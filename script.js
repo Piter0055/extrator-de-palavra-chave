@@ -13,7 +13,7 @@ function mostraPalavrasChave() {
 
 function processaTexto{
      let palavras = texto.split(" ");
-
+     return palavras;
 }
     
 
