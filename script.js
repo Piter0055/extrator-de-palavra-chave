@@ -9,3 +9,8 @@ function mostraPalavrasChave() {
     
     campoResultado.textContent = PalavrasChave.join(", ");
 }
+
+
+function processaTexto(texto){
+
+}
