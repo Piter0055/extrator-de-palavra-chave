@@ -27,3 +27,7 @@ function processaTexto (texto) {
     
     return plalavras;
 }
+
+function contaFrequencias(palavras){
+    
+}
