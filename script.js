@@ -17,7 +17,7 @@ function processaTexto (texto) {
 
 function contaFrequencias(palavras){
     let palavras = texto.split(/\P{L}+/u);
-    
+    contaFrequencias(palavras);
     let frequencias = {};
     for(let i in palavras) {
         frequencias [i] = 0;
