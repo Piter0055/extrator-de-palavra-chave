@@ -5,7 +5,6 @@ function mostraPalavrasChave() {
     const texto = document.querySelector('#entrada-de-texto').value;
     const campoResultado = document.querySelector('#resultado-palavrachave');
     const PalavrasChave = processaTexto(texto);
-    
     campoResultado.textContent = PalavrasChave.join(", ");
 }
 
@@ -37,7 +36,10 @@ function contaFrequencias(palavras){
             }
         }
     }
-    
-    return frequencias;
-    
+    return frequencias; 
+
+}
+
+function tiraPalavrasRuins(palavras){
+    const palavrasBoas = [];
 }
